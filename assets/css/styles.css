@@ -1,19 +1,22 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
+  background-color: #f1f1f1;
 }
 
 /* Setting up the header styles */
 header {
   height: 200px;
+  margin-bottom: 20px;
   color: #00233e;
   background-image: url('../images/header-bkg.png');
   background-repeat: no-repeat;
   background-position: 50% 0;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  position: relative;
   h1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
     font-size: 75px;
     margin: 0 15px 15px 0;
     padding: 5px;
@@ -21,19 +24,16 @@ header {
     background-color: rgba(212, 225, 255, 0.7);
   }
 }
-
-/* Setting up Main Styles */
-main {
-  padding: 15px 0;
+.content {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #f1f1f1;
-  .about {
-    width: 20%;
-    height: 70vh;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 0 15px;
+  aside {
+    flex: 1;
     padding: 20px;
-    background-color: #8c9fa7;
+    background-color: #484c60;
     border-radius: 10px;
     h2 {
       color: #fff;
@@ -46,6 +46,7 @@ main {
       justify-content: space-between;
       flex-wrap: wrap;
       margin: 15px 0;
+      color: #ccc;
       .profile-img {
         height: 150px;
         width: 150px;
@@ -55,11 +56,12 @@ main {
       }
       ul {
         li {
+          margin: 15px 0;
+
           &.title {
             font-size: 1.6em;
-            color: #04004e;
+            color: #fff;
           }
-          margin: 15px 0;
         }
       }
       h3 {
@@ -67,11 +69,39 @@ main {
         margin-bottom: 15px;
       }
       p {
-        line-height: 1.3;
+        line-height: 1.3em;
+        margin: 15px 0;
       }
     }
   }
-  .projects {
-    width: 60%;
+
+  /* Setting up Main Styles */
+  main {
+    flex: 4;
+    padding: 15px 0;
+
+    h2 {
+      width: 100%;
+      height: auto;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 15px;
+      margin: 15px 0;
+
+      article {
+        flex: 1;
+        border: 1px solid #333;
+        border-radius: 5px;
+        padding: 15px;
+        &:first-child {
+          width: 100%;
+        }
+      }
+    }
   }
 }
