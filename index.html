@@ -9,21 +9,23 @@
   </head>
   <body>
     <header>
-      <h1>Portfolio for Matt Gordon</h1>
+      <h1>Matt Gordon</h1>
+      <nav>
+        <ul>
+          <li><a href="#aboutMe">About Me</a></li>
+          <li>Work</li>
+          <li>Contact Me</li>
+          <li>Resume</li>
+        </ul>
+      </nav>
     </header>
+    <div class="hero">
+      <h2>Wicked Cool Portfolio!</h2>
+    </div>
     <div class="content">
-      <aside>
+      <aside id="aboutMe" class="section">
         <h2>About Me</h2>
         <section>
-          <div class="profile-img"></div>
-          <ul>
-            <li class="title">Matt Gordon</li>
-            <li>Senior Front-End Developer</li>
-            <li>Minneapolis, MN</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Biography</h3>
           <p>
             I have been working in the web industry for 20 years. During my
             career, I have worked in various industries ranging from Radio to
@@ -37,21 +39,43 @@
           </p>
         </section>
       </aside>
-      <main>
+      <main id="work" class="section">
         <h2>Web Projects</h2>
-        <div class="projects">
+        <section class="projects">
           <article>
-            <h3>Horiseon Refactor</h3>
+            <div class="title">
+              <h3>Horiseon Refactor</h3>
+              <h4>Basic HTML/CSS</h4>
+            </div>
           </article>
           <article>
-            <h3>Horiseon Refactor</h3>
+            <div class="title">
+              <h3>Portfolio</h3>
+              <h4>Advanced HTML/CSS</h4>
+            </div>
           </article>
           <article>
-            <h3>Horiseon Refactor</h3>
+            <div class="title">
+              <h3>Horiseon Refactor</h3>
+              <h4>HTML/CSS</h4>
+            </div>
           </article>
-        </div>
+        </section>
       </main>
+      <aside id="contactMe" class="section">
+        <h2>Contact Me</h2>
+        <nav>
+          <ul>
+            <li>617.894.4775</li>
+            <li>jobs@mattrgordon.com</li>
+            <li>Github</li>
+            <li>LinkedIn</li>
+          </ul>
+        </nav>
+      </aside>
     </div>
-    <footer></footer>
+    <footer>
+      <p>&copy; 2024 Matt Gordon All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
