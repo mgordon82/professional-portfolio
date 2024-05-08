@@ -42,7 +42,6 @@ header {
     }
   }
 }
-
 /* hero styles */
 .hero {
   position: relative;
@@ -152,6 +151,7 @@ footer {
   border-top: 3px solid #333;
 }
 
+/* handles resizing based on max width of 805px */
 @media screen and (max-width: 805px) {
   .section {
     flex-flow: column wrap;
