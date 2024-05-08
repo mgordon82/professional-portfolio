@@ -110,6 +110,8 @@ header {
       width: 48%;
       border: 2px solid #a3ffff;
       height: 150px;
+      background-size: cover;
+      background-repeat: no-repeat;
       .title {
         position: absolute;
         left: 0;
@@ -123,29 +125,23 @@ header {
           font-size: 0.8em;
         }
       }
-    }
-    article:first-child {
-      width: 100%;
-      height: 300px;
-    }
-    article:hover {
-      opacity: 0.5;
-      cursor: pointer;
-    }
-    .horiseon-styles {
-      background-size: cover;
-      background-image: url('../images/horiseon-site.png');
-      background-repeat: no-repeat;
-    }
-    .portfolio-styles {
-      background-size: cover;
-      background-image: url('../images/portfolio-site.png');
-      background-repeat: no-repeat;
-    }
-    .todo-app-styles {
-      background-size: cover;
-      background-image: url('../images/todo-app.png');
-      background-repeat: no-repeat;
+      &:hover {
+        opacity: 0.5;
+        cursor: pointer;
+      }
+      &:first-child {
+        width: 100%;
+        height: 300px;
+      }
+      &.horiseon-styles {
+        background-image: url('../images/horiseon-site.png');
+      }
+      &.portfolio-styles {
+        background-image: url('../images/portfolio-site.png');
+      }
+      &.todo-app-styles {
+        background-image: url('../images/todo-app.png');
+      }
     }
   }
 }
