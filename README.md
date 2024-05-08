@@ -36,6 +36,11 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
+## Links to View Code and Site
+
+- [Github Repo](https://github.com/mgordon82/professional-portfolio)
+- [Github Pages](https://mgordon82.github.io/professional-portfolio/)
+
 ## Credits
 
 I will give credit for the reset.css file to [meyerweb.com](https://meyerweb.com/eric/tools/css/reset/)
