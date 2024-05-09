@@ -6,7 +6,7 @@ This project represents my portfolio of work that I have done. Primarily, the wo
 
 ## How to access
 
-The project should be available on GitHub Pages.
+The project should be available on [GitHub Pages](https://mgordon82.github.io/professional-portfolio/).
 
 ## User Story
 
