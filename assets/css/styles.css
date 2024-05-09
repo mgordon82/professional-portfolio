@@ -77,12 +77,20 @@ header {
     padding-right: 10px;
     font-size: 1.6em;
   }
+
   section,
   nav {
     flex: 1;
     line-height: 1.3em;
     p {
       margin-bottom: 10px;
+    }
+  }
+  section {
+    display: flex;
+    gap: 15px;
+    img {
+      height: 150px;
     }
   }
   nav {
