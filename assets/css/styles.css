@@ -112,6 +112,7 @@ header {
       }
     }
   }
+  /* styling the website work area and respective website items */
   .projects {
     display: flex;
     flex-wrap: wrap;
