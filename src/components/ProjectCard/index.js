@@ -1,3 +1,6 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 import {
   Box,
   Button,
@@ -121,6 +124,16 @@ const ProjectCard = ({
       </Box>
     </Card>
   );
+};
+
+ProjectCard.propTypes = {
+  title: PropTypes.string,
+  image: PropTypes.string,
+  imageAlt: PropTypes.string,
+  description: PropTypes.string,
+  viewSiteLink: PropTypes.string,
+  codeLink: PropTypes.string,
+  languages: PropTypes.array
 };
 
 export default ProjectCard;

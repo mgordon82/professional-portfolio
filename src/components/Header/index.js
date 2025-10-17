@@ -1,3 +1,4 @@
+import React from 'react';
 import { Box, MenuItem, MenuList, Stack, Typography } from '@mui/material';
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
             fontSize: '1.8em'
           }}
         >
-          Matt Gordon's Portfolio
+          Matt Gordon&apos;s Portfolio
         </Typography>
         <MenuList sx={{ display: 'flex', gap: 2, color: '#fff' }}>
           <MenuItem>

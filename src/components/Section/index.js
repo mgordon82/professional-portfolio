@@ -1,6 +1,9 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+
 import { Box, Stack, Typography } from '@mui/material';
 
-const Section = ({ title, children, ...props }) => {
+const Section = ({ title, children }) => {
   return (
     <Box component='section'>
       <Stack direction='row' gap={3}>
@@ -23,6 +26,11 @@ const Section = ({ title, children, ...props }) => {
       </Stack>
     </Box>
   );
+};
+
+Section.propTypes = {
+  title: PropTypes.string,
+  children: PropTypes.any
 };
 
 export default Section;
