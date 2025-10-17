@@ -9,7 +9,10 @@ const Footer = () => {
       sx={{
         padding: '25px',
         backgroundColor: '#00bebe',
-        borderTop: '3px solid #333'
+        borderTop: '3px solid #333',
+        position: 'sticky',
+        bottom: 0,
+        width: '100%'
       }}
     >
       <footer>

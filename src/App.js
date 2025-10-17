@@ -1,11 +1,32 @@
-import { createTheme, CssBaseline, Stack, ThemeProvider } from '@mui/material';
+import {
+  createTheme,
+  CssBaseline,
+  Grid,
+  Stack,
+  ThemeProvider
+} from '@mui/material';
 import avatarImg from './assets/images/avatar.png';
+
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Section from './components/Section';
+import ProjectCard from './components/ProjectCard';
+
+import portfolioImg from './assets/images/portfolio-site.png';
+import toDoAppImg from './assets/images/todo-app.png';
+import doggoEDoggoImg from './assets/images/doggo-e-doggo-site.png';
 
 const App = () => {
   const theme = createTheme({
+    palette: {
+      mode: 'dark',
+      background: {
+        default: '#444'
+      },
+      text: {
+        primary: '#fff'
+      }
+    },
     components: {
       MuiMenuItem: {
         styleOverrides: {
@@ -56,42 +77,41 @@ const App = () => {
             </div>
           </Section>
           <Section title='Web Projects'>
-            <article>
-              <a
-                href='https://mgordon82.github.io/horiseon-refactor/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div>
-                  <h3>Horiseon Refactor</h3>
-                  <h4>Basic HTML/CSS</h4>
-                </div>
-              </a>
-            </article>
-            <article>
-              <a
-                href='https://github.com/mgordon82/professional-portfolio'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div>
-                  <h3>Portfolio</h3>
-                  <h4>Advanced HTML/CSS</h4>
-                </div>
-              </a>
-            </article>
-            <article>
-              <a
-                href='https://github.com/mgordon82/todo-app'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <div>
-                  <h3>Basic To-do App</h3>
-                  <h4>ReactJS/HTML/CSS</h4>
-                </div>
-              </a>
-            </article>
+            <Grid container spacing={3} alignItems='stretch'>
+              <Grid item xs={12} sm={6} md={4}>
+                <ProjectCard
+                  title='Portfolio Site'
+                  image={portfolioImg}
+                  imageAlt='portfolio site preview'
+                  description='Clean, responsive personal portfolio built with dark mode and custom accent color.'
+                  codeLink='https://github.com/mgordon82/professional-portfolio'
+                  viewSiteLink='/'
+                  languages={['HTML', 'CSS']}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <ProjectCard
+                  title='Basic To-Do App'
+                  image={toDoAppImg}
+                  imageAlt='basic to-do app preview'
+                  description='A basic react app that builds out a to-do list saving the items in local storage'
+                  codeLink='https://github.com/mgordon82/todo-app'
+                  viewSiteLink='/'
+                  languages={['React', 'HTML', 'CSS']}
+                />
+              </Grid>
+              <Grid item xs={12} sm={6} md={4}>
+                <ProjectCard
+                  title='Doggo-e-Doggo React App'
+                  image={doggoEDoggoImg}
+                  imageAlt='doggo-e-doggo react app preview'
+                  description='A react app that connects to a database of dogs, does basic auth and looks up available dogs for adoption. This was built for a coding challenge.'
+                  codeLink='https://github.com/mgordon82/doggo-e-doggo'
+                  viewSiteLink='https://doggo-e-doggo.netlify.app'
+                  languages={['React', 'HTML', 'CSS']}
+                />
+              </Grid>
+            </Grid>
           </Section>
           <Section title='Contact Me'>
             <nav>
