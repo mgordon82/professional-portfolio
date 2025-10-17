@@ -2,6 +2,9 @@ import {
   createTheme,
   CssBaseline,
   Grid,
+  Link,
+  List,
+  ListItem,
   Stack,
   ThemeProvider
 } from '@mui/material';
@@ -114,34 +117,33 @@ const App = () => {
             </Grid>
           </Section>
           <Section title='Contact Me'>
-            <nav>
-              <ul>
-                <li>
-                  <a href='tel:6178944775'>617.894.4775</a>
-                </li>
-                <li>
-                  <a href='mailto:jobs@mattrgordon.com'>jobs@mattrgordon.com</a>
-                </li>
-                <li>
-                  <a
-                    href='https://github.com/mgordon82'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    Github
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href='https://linkedin/in/mgordon82'
-                    target='_blank'
-                    rel='noreferrer'
-                  >
-                    LinkedIn
-                  </a>
-                </li>
-              </ul>
-            </nav>
+            <List component='nav' sx={{ display: 'flex' }}>
+              <ListItem>
+                <Link sx={{ color: '#fff' }} href='mailto:jobs@mattrgordon.com'>
+                  jobs@mattrgordon.com
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link
+                  sx={{ color: '#fff' }}
+                  href='https://github.com/mgordon82'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  Github
+                </Link>
+              </ListItem>
+              <ListItem>
+                <Link
+                  sx={{ color: '#fff' }}
+                  href='https://linkedin/in/mgordon82'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  LinkedIn
+                </Link>
+              </ListItem>
+            </List>
           </Section>
         </Stack>
         <Footer />
