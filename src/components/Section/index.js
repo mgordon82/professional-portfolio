@@ -6,14 +6,26 @@ import { Box, Stack, Typography } from '@mui/material';
 const Section = ({ title, children }) => {
   return (
     <Box component='section'>
-      <Stack direction='row' gap={3}>
-        <Box sx={{ borderRight: '2px solid #333' }}>
+      <Stack direction={{ xs: 'column', sm: 'row' }} gap={3}>
+        <Box
+          sx={{
+            borderRight: {
+              xs: 'none',
+              sm: '2px solid #333'
+            },
+            borderBottom: {
+              xs: '2px solid #333',
+              sm: 'none'
+            },
+            pb: { xs: 1, sm: 0 }
+          }}
+        >
           <Typography
             component='h2'
             sx={{
-              width: 100,
-              textAlign: 'right',
-              paddingRight: '10px',
+              width: { xs: '100%', sm: 100 },
+              textAlign: { xs: 'left', sm: 'right' },
+              paddingRight: { xs: 0, sm: '10px' },
               fontSize: '1.6em'
             }}
           >

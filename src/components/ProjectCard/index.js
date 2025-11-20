@@ -27,9 +27,8 @@ const ProjectCard = ({
   return (
     <Card
       sx={{
-        width: '100%',
+        maxWidth: 600,
         height: '100%',
-        // display: 'flex',
         flexDirection: 'column',
         borderRadius: 3,
         overflow: 'hidden',
