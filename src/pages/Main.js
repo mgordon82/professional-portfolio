@@ -31,7 +31,10 @@ const Main = () => {
               float: 'left',
               marginRight: 2,
               marginBottom: 1,
-              borderRadius: '30%'
+              padding: 0.5,
+              border: '2px solid transparent',
+              background: `linear-gradient(135deg, #00bebe, #008c8c) border-box`,
+              borderRadius: '50%'
             }}
           />
           <Typography mb={2}>
@@ -93,30 +96,97 @@ const Main = () => {
         </Grid>
       </Section>
       <Section title='Contact Me'>
-        <List component='nav' sx={{ display: 'flex' }}>
-          <ListItem>
-            <Link sx={{ color: '#fff' }} href='mailto:jobs@mattrgordon.com'>
-              jobs@mattrgordon.com
+        <List
+          component='nav'
+          sx={{
+            display: 'flex',
+            gap: 2,
+            alignItems: 'center',
+            p: 0,
+            m: 0
+          }}
+        >
+          <ListItem disableGutters disablePadding>
+            <Link
+              href='https://linkedin/in/mgordon82'
+              target='_blank'
+              rel='noreferrer'
+              sx={{
+                color: '#fff',
+                textDecoration: 'none',
+                textTransform: 'none',
+                fontWeight: 400,
+                borderBottom: '2px solid transparent',
+                transition: 'all .2s ease',
+                px: 1,
+                py: 0.5,
+                '&:hover': {
+                  borderBottom: '2px solid #00bebe',
+                  color: '#00bebe'
+                },
+                '&:focus-visible': {
+                  outline: '2px solid #00bebe',
+                  outlineOffset: '3px',
+                  borderRadius: '2px'
+                }
+              }}
+            >
+              LinkedIn
             </Link>
           </ListItem>
-          <ListItem>
+          <ListItem disableGutters disablePadding>
             <Link
-              sx={{ color: '#fff' }}
               href='https://github.com/mgordon82'
               target='_blank'
               rel='noreferrer'
+              sx={{
+                color: '#fff',
+                textDecoration: 'none',
+                textTransform: 'none',
+                fontWeight: 400,
+                borderBottom: '2px solid transparent',
+                transition: 'all .2s ease',
+                px: 1,
+                py: 0.5,
+                '&:hover': {
+                  borderBottom: '2px solid #00bebe',
+                  color: '#00bebe'
+                },
+                '&:focus-visible': {
+                  outline: '2px solid #00bebe',
+                  outlineOffset: '3px',
+                  borderRadius: '2px'
+                }
+              }}
             >
               Github
             </Link>
           </ListItem>
-          <ListItem>
+
+          <ListItem disableGutters disablePadding>
             <Link
-              sx={{ color: '#fff' }}
-              href='https://linkedin/in/mgordon82'
-              target='_blank'
-              rel='noreferrer'
+              href='mailto:jobs@mattrgordon.com'
+              sx={{
+                color: '#fff',
+                textDecoration: 'none',
+                textTransform: 'none',
+                fontWeight: 400,
+                borderBottom: '2px solid transparent',
+                transition: 'all .2s ease',
+                px: 1,
+                py: 0.5,
+                '&:hover': {
+                  borderBottom: '2px solid #00bebe',
+                  color: '#00bebe'
+                },
+                '&:focus-visible': {
+                  outline: '2px solid #00bebe',
+                  outlineOffset: '3px',
+                  borderRadius: '2px'
+                }
+              }}
             >
-              LinkedIn
+              jobs@mattrgordon.com
             </Link>
           </ListItem>
         </List>
