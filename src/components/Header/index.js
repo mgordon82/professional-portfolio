@@ -1,12 +1,10 @@
 import React from 'react';
-import { Box, MenuItem, MenuList, Stack, Typography } from '@mui/material';
-import { useNavigate } from 'react-router';
+import { Box, Stack, Typography } from '@mui/material';
 
 import logo from '../../assets/images/logo.png';
 import Navigation from './navigation';
 
 const Header = () => {
-  const navigate = useNavigate();
   return (
     <Box component='header' sx={{ backgroundColor: '#333', padding: '15px' }}>
       <Stack direction='row' alignItems='center' justifyContent='space-between'>
