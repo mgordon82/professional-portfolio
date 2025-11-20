@@ -11,16 +11,12 @@ const Footer = () => {
         padding: '25px',
         backgroundColor: '#00bebe',
         borderTop: '3px solid #333',
-        position: 'sticky',
-        bottom: 0,
         width: '100%'
       }}
     >
-      <footer>
-        <Typography component='p'>
-          &copy; {year} Matt Gordon All Rights Reserved.
-        </Typography>
-      </footer>
+      <Typography component='p'>
+        &copy; {year} Matt Gordon All Rights Reserved.
+      </Typography>
     </Box>
   );
 };

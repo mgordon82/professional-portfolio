@@ -1,4 +1,4 @@
-import { Container } from '@mui/material';
+import { Box, Container } from '@mui/material';
 import React from 'react';
 
 import { Outlet } from 'react-router';
@@ -7,9 +7,19 @@ import Footer from '../Footer';
 
 const Layout = () => {
   return (
-    <Container maxWidth disableGutters>
+    <Container
+      maxWidth
+      disableGutters
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh'
+      }}
+    >
       <Header />
-      <Outlet />
+      <Box component='main' sx={{ flexGrow: 1 }}>
+        <Outlet />
+      </Box>
       <Footer />
     </Container>
   );
