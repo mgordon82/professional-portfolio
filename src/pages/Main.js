@@ -18,7 +18,16 @@ import doggoEDoggoImg from '../assets/images/doggo-e-doggo-site.png';
 
 const Main = () => {
   return (
-    <Stack gap={3} padding={5}>
+    <Stack
+      gap={3}
+      padding={5}
+      sx={{
+        minHeight: '100vh',
+        bgcolor: '#050608',
+        color: '#fff',
+        py: 6
+      }}
+    >
       <Section title='About Me'>
         <Box>
           <Box
