@@ -12,14 +12,13 @@ export const resumeData = {
   ],
 
   contact: {
-    phone: '617-894-4775',
     email: 'jobs@mattrgordon.com',
     linkedin: 'https://linkedin.com/in/mgordon82',
     github: 'https://github.com/mgordon82',
-    location: 'Lakeville, MN 55044, United States'
+    location: 'Minnesota, USA'
   },
 
-  location: 'Lakeville, MN 55044, United States',
+  location: 'Minnesota, USA',
   email: 'jobs@mattrgordon.com',
   links: [
     { label: 'LinkedIn', url: 'https://linkedin.com/in/mgordon82' },
@@ -30,7 +29,7 @@ export const resumeData = {
     {
       role: 'Senior Front-End / Full Stack Engineer',
       company: 'Sempris / Slyce360',
-      location: 'Minneapolis, MN',
+      location: 'Eden Prairie, MN',
       start: 'April 2024',
       end: 'Current',
       bullets: [
@@ -90,8 +89,8 @@ export const resumeData = {
       role: 'Senior Front-End Developer',
       company: 'Flint Hills Resources',
       location: 'Inver Grove Heights, MN',
-      start: '2020',
-      end: '2022',
+      start: 'October 2020',
+      end: 'March 2022',
       bullets: [
         'Developed ReactJS applications for displaying data to customers.',
         'Utilized C3.ai as a data-driven forecasting platform.',
@@ -107,8 +106,8 @@ export const resumeData = {
       role: 'Lead UI Designer / Developer',
       company: 'Waterfield Technologies',
       location: 'Minneapolis, MN',
-      start: '2020',
-      end: '2020',
+      start: 'February 2020',
+      end: ' October 2020',
       bullets: [
         'Focused on building applications and user interfaces for web IVR platforms.',
         'Used ReactJS for application development.',
@@ -123,8 +122,8 @@ export const resumeData = {
       role: 'Software Engineer - UI/UX Lead',
       company: 'UnitedHealth Group / Optum',
       location: 'Boston, MA & Eden Prairie, MN',
-      start: '2014',
-      end: '2020',
+      start: 'October 2014',
+      end: 'February 2020',
       bullets: [
         'Built successful provider-facing web applications and portals for Optum.',
         'Utilized HTML, CSS, ReactJS, and an older version of AngularJS within OSE3 environments.',
@@ -148,8 +147,8 @@ export const resumeData = {
       role: 'Online User Interface Manager',
       company: 'The Conference Exchange',
       location: 'Cumberland, RI',
-      start: '2011',
-      end: '2014',
+      start: 'August 2011',
+      end: 'August 2014',
       bullets: [
         'Designed and redesigned application pages for in-house applications.',
         'Built pages intended for use with clients during conferences.',
@@ -163,7 +162,7 @@ export const resumeData = {
       role: 'Miscellaneous Projects / Freelance',
       company: 'Online Presence',
       location: 'Remote',
-      start: '2003',
+      start: 'January 2003',
       end: 'Present',
       bullets: [
         'Started as a hobby, worked on side projects to help small businesses establish online presence.',
@@ -200,8 +199,10 @@ export const resumeData = {
     technology: [
       'Mac preferred',
       'Agile',
+      'CSS',
+      'HTML',
       'ReactJS',
-      'Node',
+      'Node.js',
       'VSCode / VSCodium',
       'AWS',
       'Figma',

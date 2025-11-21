@@ -228,8 +228,17 @@ const Resume = () => {
                     <Card
                       key={key}
                       sx={{
-                        bgcolor: '#111',
-                        border: '1px solid rgba(255,255,255,0.06)'
+                        position: 'relative',
+                        '&:before': {
+                          content: '""',
+                          position: 'absolute',
+                          left: 0,
+                          top: 12,
+                          bottom: 12,
+                          width: '4px',
+                          borderRadius: '4px',
+                          backgroundColor: '#00bebe'
+                        }
                       }}
                     >
                       <CardContent>
