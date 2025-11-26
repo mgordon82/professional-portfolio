@@ -31,7 +31,7 @@ export const resumeData = {
       company: 'Sempris / Slyce360',
       location: 'Eden Prairie, MN',
       start: 'April 2024',
-      end: 'Current',
+      end: 'November 2025',
       bullets: [
         'Responsible for building React applications for application dashboards.',
         'Utilizing Redux (Slices and Epics) for state management.',
