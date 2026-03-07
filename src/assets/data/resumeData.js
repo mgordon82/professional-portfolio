@@ -216,6 +216,24 @@ export const resumeData = {
 
   projects: [
     {
+      name: 'Chapter Two',
+      description:
+        'Fitness application with a secure web portal for Trainers and Clients to use for fitness tracking, nutrition advice, and training tools',
+      link: 'https://https://chapter-two-ui.netlify.app/',
+      code: 'https://github.com/mgordon82/chapter-two-api',
+      tech: [
+        'React',
+        'REST API',
+        'Netlify',
+        'Node',
+        'MongoDB',
+        'Typescript',
+        'Render',
+        'AWS',
+        'Cognito'
+      ]
+    },
+    {
       name: 'Professional Portfolio',
       description:
         'Dark-mode, responsive portfolio site built with React and MUI, featuring interactive project cards and a custom MG logo.',
