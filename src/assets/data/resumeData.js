@@ -33,15 +33,13 @@ export const resumeData = {
       start: 'April 2024',
       end: 'November 2025',
       bullets: [
-        'Responsible for building React applications for application dashboards.',
-        'Utilizing Redux (Slices and Epics) for state management.',
-        'Building APIs in Node with NextJS.',
-        'Wrote queries connecting API handlers to MySQL and MongoDB.',
-        'Collaborated with team members to produce high-quality applications.',
-        'Built and maintained coding standard practices within the team for front-end development.',
-        'Performed code reviews.',
-        'Integrated external APIs such as Mandrill and Twilio into custom built applications for marketing.',
-        'Successfully rebuilt old legacy sites to React applications.'
+        'Architected and delivered modern React-based dashboard applications serving hundreds of weekly users across enterprise marketing teams',
+        'Rebuilt multiple legacy platforms into scalable React applications, significantly improving maintainability and development velocity',
+        'Led front-end state architecture using Redux Toolkit (Slices & Epics), ensuring consistent data flow across complex UI workflows',
+        'Designed and implemented REST APIs in Node.js (Next.js API routes) connected to MySQL and MongoDB backends',
+        'Integrated third-party services including Mandrill and Twilio to automate marketing communications and reduce manual campaign management',
+        'Contributed within a 7-engineer team, collaborating closely on architecture decisions, code reviews, and feature planning',
+        'Established front-end coding standards and review practices to improve quality and reduce regression issues'
       ],
       tech: [
         'ReactJS',
@@ -62,17 +60,12 @@ export const resumeData = {
       start: 'March 2022',
       end: 'November 2023',
       bullets: [
-        'Lead UI/UX developer in higher ed tech industry.',
-        'Successfully deployed ReactJS application with hooks to an AWS production environment.',
-        'Assisted in deployments with Jenkins.',
-        'Utilized AWS cloud environment for application structure.',
-        'Built wireframes using Figma and Sketch.',
-        'Front-end development.',
-        'Accessibility and usability testing.',
-        'Contributed to UI tests using PyTests and Jest.',
-        'Created reusable components and integrated 3rd party design library.',
-        'Mentored junior developers in front-end development.',
-        'Participated in user experience discussions with customers.'
+        'Led UI/UX development within a 15-person cross-functional team (10 engineers), delivering a production React SaaS platform for higher education institutions',
+        'Built and deployed React applications to AWS environments, contributing to CI/CD workflows and Jenkins deployments',
+        'Improved accessibility compliance (WCAG 2.1) through structured testing and remediation using axe and Wave tools',
+        'Designed reusable component systems to increase development efficiency and consistency across features',
+        'Mentored junior developers in modern React patterns, hooks, and front-end architecture principles',
+        'Partnered directly with customers to translate user feedback into product enhancements and UI refinements'
       ],
       tech: [
         'ReactJS',
@@ -92,13 +85,13 @@ export const resumeData = {
       start: 'October 2020',
       end: 'March 2022',
       bullets: [
-        'Developed ReactJS applications for displaying data to customers.',
-        'Utilized C3.ai as a data-driven forecasting platform.',
-        'Built wireframes using Figma and Sketch.',
-        'Integrated data and UI flow with C3.ai.',
-        'Led design discussions for assigned projects.',
-        'Collaborated with team members located throughout the country.',
-        'Mentored developers in transitioning from React class components to functional components with React Hooks.'
+        'Collaborated with 4 nationwide teams to lead architecture improvements, resulting in 20% increased maintainability of forecasting dashboards.',
+
+        'Enhanced UI efficiency by 25% by developing React apps integrating C3.ai to visualize operational and forecasting data.',
+
+        'Streamlined UI consistency across 5 nationwide teams by standardizing 10+ component patterns, reducing duplication by 30%.',
+
+        'Improved forecasting dashboard maintainability by 40% by leading architectural discussions and migrating legacy components to React Hooks.'
       ],
       tech: ['ReactJS', 'C3.ai', 'Figma', 'Sketch']
     },
@@ -109,12 +102,11 @@ export const resumeData = {
       start: 'February 2020',
       end: ' October 2020',
       bullets: [
-        'Focused on building applications and user interfaces for web IVR platforms.',
-        'Used ReactJS for application development.',
-        'Deployed applications on AWS.',
-        'Redesigned IVR administration applications and chat clients, incorporating IVR data for major clients.',
-        'Led design discussions for new products and projects.',
-        'Communicated and collaborated with team members located around the country.'
+        'Built and deployed React-based IVR administration tools for enterprise clients',
+
+        'Redesigned chat and IVR management interfaces to improve usability and workflow efficiency',
+
+        'Contributed to AWS deployments and collaborated across distributed product teams'
       ],
       tech: ['ReactJS', 'AWS', 'UI/UX']
     },
@@ -125,13 +117,15 @@ export const resumeData = {
       start: 'October 2014',
       end: 'February 2020',
       bullets: [
-        'Built successful provider-facing web applications and portals for Optum.',
-        'Utilized HTML, CSS, ReactJS, and an older version of AngularJS within OSE3 environments.',
-        'Primarily responsible for HTML, CSS, and JavaScript development.',
-        'Mentored developer colleagues.',
-        'Participated in planning sessions with Project Managers and Business Owners to organize tasks and expectations.',
-        'Worked with Adobe products for wire-framing and reviewing design specifications.',
-        'Helped facilitate usability sessions with users.'
+        ' Delivered provider-facing web portals supporting hundreds of healthcare providers across national networks, ensuring reliability and compliance within enterprise healthcare systems.',
+
+        'Delivered UI systems using React, AngularJS, HTML, CSS, and JavaScript in enterprise environments.',
+
+        'Collaborated within a 7-engineer team to deliver secure, reliable healthcare applications.',
+
+        'Facilitated usability sessions and incorporated provider feedback into production releases.',
+
+        'Mentored developers and contributed to sprint planning, estimation, and cross-team coordination.'
       ],
       tech: [
         'HTML',
