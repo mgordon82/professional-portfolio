@@ -75,7 +75,7 @@ const Main = () => {
               imageAlt='chapter two preview'
               description='Fitness application with a secure web portal for Trainers and Clients to use for fitness tracking, nutrition advice, and training tools'
               codeLink='https://github.com/mgordon82/chapter-two-api'
-              viewSiteLink='https://https://chapter-two-ui.netlify.app/'
+              viewSiteLink='https://chapter-two-ui.netlify.app/'
               languages={[
                 'React',
 

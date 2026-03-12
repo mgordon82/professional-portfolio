@@ -213,7 +213,7 @@ export const resumeData = {
       name: 'Chapter Two',
       description:
         'Fitness application with a secure web portal for Trainers and Clients to use for fitness tracking, nutrition advice, and training tools',
-      link: 'https://https://chapter-two-ui.netlify.app/',
+      link: 'https://chapter-two-ui.netlify.app/',
       code: 'https://github.com/mgordon82/chapter-two-api',
       tech: [
         'React',
