@@ -17,10 +17,8 @@ const Navigation = () => {
   const location = useLocation();
 
   const menuItems = [
-    { label: 'About Me', to: '/' },
+    { label: 'Home', to: '/' },
     { label: 'Resume', to: '/resume' }
-    // { label: 'Web Projects', to: '/' },
-    // { label: 'Contact Me', to: '/' }
   ];
 
   const isActive = (to) => location.pathname === to;

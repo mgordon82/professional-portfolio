@@ -72,22 +72,20 @@ const Main = () => {
               title='MiPT'
               image={MiPTImage}
               imageAlt='mipt preview'
-              description='Fitness application with a secure web portal for Trainers and Clients to use for fitness tracking, nutrition advice, and training tools'
+              description='Full-stack fitness and nutrition platform for trainers and clients, featuring secure role-based access, progress tracking, nutrition tools, and AI-powered insights.'
               codeLink='https://github.com/mgordon82/chapter-two-api'
               viewSiteLink='https://chapter-two-ui.netlify.app/'
               languages={[
                 'React',
-                'Netlify',
-                'Node',
-                'MongoDB',
-                'Render',
-                'Cognito',
-                'Typescript',
+                'TypeScript',
                 'Redux Toolkit',
-                'redux-observable',
-                'Express',
+                'Redux Observable',
                 'MUI',
-                'OpenAI Integration'
+                'Node.js',
+                'Express',
+                'MongoDB',
+                'AWS Cognito',
+                'OpenAI'
               ]}
             />
           </Grid>

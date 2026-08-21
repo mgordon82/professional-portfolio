@@ -217,19 +217,20 @@ export const resumeData = {
     {
       name: 'MiPT',
       description:
-        'Fitness application with a secure web portal for Trainers and Clients to use for fitness tracking, nutrition advice, and training tools',
+        'Full-stack fitness and nutrition platform for trainers and clients, featuring secure role-based access, progress tracking, nutrition tools, and AI-powered insights.',
       link: 'https://chapter-two-ui.netlify.app/',
       code: 'https://github.com/mgordon82/chapter-two-api',
       tech: [
         'React',
-        'REST API',
-        'Netlify',
-        'Node',
+        'TypeScript',
+        'Redux Toolkit',
+        'Redux Observable',
+        'MUI',
+        'Node.js',
+        'Express',
         'MongoDB',
-        'Typescript',
-        'Render',
-        'AWS',
-        'Cognito'
+        'AWS Cognito',
+        'OpenAI'
       ]
     },
     {
