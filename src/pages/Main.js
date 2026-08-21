@@ -95,7 +95,6 @@ const Main = () => {
               imageAlt='portfolio site preview'
               description='Clean, responsive personal portfolio built with dark mode and custom accent color.'
               codeLink='https://github.com/mgordon82/professional-portfolio'
-              viewSiteLink='/'
               languages={['React', 'HTML', 'CSS']}
             />
           </Grid>
