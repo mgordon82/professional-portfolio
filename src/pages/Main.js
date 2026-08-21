@@ -13,7 +13,6 @@ import ProjectCard from '../components/ProjectCard';
 
 import avatarImg from '../assets/images/avatar.png';
 import portfolioImg from '../assets/images/portfolio-site.png';
-import toDoAppImg from '../assets/images/todo-app.png';
 import doggoEDoggoImg from '../assets/images/doggo-e-doggo-site.png';
 import chapterTwoImg from '../assets/images/chapter-two.png';
 
@@ -100,19 +99,6 @@ const Main = () => {
               languages={['React', 'HTML', 'CSS']}
             />
           </Grid>
-
-          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
-            <ProjectCard
-              title='Basic To-Do App'
-              image={toDoAppImg}
-              imageAlt='basic to-do app preview'
-              description='A basic react app that builds out a to-do list saving the items in local storage.'
-              codeLink='https://github.com/mgordon82/todo-app'
-              viewSiteLink='/'
-              languages={['React', 'HTML', 'CSS']}
-            />
-          </Grid>
-
           <Grid size={{ xs: 12, sm: 6, md: 4 }}>
             <ProjectCard
               title='Doggo-e-Doggo React App'
@@ -139,7 +125,7 @@ const Main = () => {
         >
           <ListItem disableGutters disablePadding>
             <Link
-              href='https://linkedin/in/mgordon82'
+              href='https://www.linkedin.com/in/mgordon82'
               target='_blank'
               rel='noreferrer'
               sx={{

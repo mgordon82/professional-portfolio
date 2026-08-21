@@ -13,7 +13,7 @@ export const resumeData = {
 
   contact: {
     email: 'jobs@mattrgordon.com',
-    linkedin: 'https://linkedin.com/in/mgordon82',
+    linkedin: 'https://www.linkedin.com/in/mgordon82',
     github: 'https://github.com/mgordon82',
     location: 'Minnesota, USA'
   },
@@ -21,7 +21,7 @@ export const resumeData = {
   location: 'Minnesota, USA',
   email: 'jobs@mattrgordon.com',
   links: [
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/mgordon82' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/mgordon82' },
     { label: 'GitHub', url: 'https://github.com/mgordon82' }
   ],
 
@@ -180,6 +180,11 @@ export const resumeData = {
       school: 'Zero to Mastery',
       credential: 'NodeJS Course Certificate',
       year: '2025'
+    },
+    {
+      school: 'Zero to Mastery',
+      credential: 'Complete Web Developer Certificate',
+      year: '2026'
     }
   ],
 
