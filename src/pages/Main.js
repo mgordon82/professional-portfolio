@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Grid,
   Link,
   List,
@@ -20,32 +21,123 @@ const Main = () => {
   return (
     <Stack
       gap={3}
-      padding={5}
       sx={{
         minHeight: '100vh',
         bgcolor: '#050608',
         color: '#fff',
-        py: 6
+        px: { xs: 2, sm: 3, md: 5 },
+        py: { xs: 3, md: 6 }
       }}
     >
+      <Box
+        component='section'
+        sx={{
+          p: { xs: 3, md: 5 },
+          my: { xs: 2, md: 4 },
+          borderRadius: 4,
+          border: '1px solid rgba(0, 190, 190, 0.25)',
+          background: `
+      radial-gradient(
+        circle at 85% 50%,
+        rgba(0, 190, 190, 0.12),
+        transparent 30%
+      ),
+      linear-gradient(
+        135deg,
+        rgba(0, 190, 190, 0.08),
+        rgba(5, 6, 8, 0.95) 50%
+      )
+    `
+        }}
+      >
+        <Box
+          sx={{
+            display: 'grid',
+            gridTemplateColumns: {
+              xs: '1fr',
+              md: 'minmax(0, 1fr) 220px'
+            },
+            gap: { xs: 4, md: 6 },
+            alignItems: 'center'
+          }}
+        >
+          <Stack spacing={2.5}>
+            <Typography
+              variant='body2'
+              sx={{
+                color: '#00bebe',
+                fontWeight: 600,
+                letterSpacing: 0.5
+              }}
+            >
+              React · TypeScript · UI Architecture · Full-Stack Development
+            </Typography>
+
+            <Typography
+              component='h1'
+              variant='h2'
+              sx={{
+                fontWeight: 700,
+                lineHeight: 1.1,
+                maxWidth: 850
+              }}
+            >
+              Senior Frontend Software Engineer
+            </Typography>
+
+            <Typography
+              variant='h5'
+              color='text.secondary'
+              sx={{
+                lineHeight: 1.5,
+                maxWidth: 850
+              }}
+            >
+              I build scalable, accessible React applications and complex
+              product experiences, with a focus on clean architecture,
+              thoughtful UI, and maintainable frontend systems.
+            </Typography>
+
+            <Stack direction='row' spacing={2} useFlexGap flexWrap='wrap'>
+              <Button variant='contained' href='#projects'>
+                View My Work
+              </Button>
+
+              <Button variant='outlined' href='/resume'>
+                View Resume
+              </Button>
+            </Stack>
+          </Stack>
+
+          <Box
+            sx={{
+              display: 'flex',
+              justifyContent: {
+                xs: 'flex-start',
+                md: 'center'
+              }
+            }}
+          >
+            <Box
+              component='img'
+              src={avatarImg}
+              alt='Matt Gordon'
+              sx={{
+                height: { xs: 150, md: 200 },
+                width: { xs: 150, md: 200 },
+                objectFit: 'cover',
+                padding: 0.5,
+                border: '2px solid transparent',
+                background:
+                  'linear-gradient(135deg, #00bebe, #008c8c) border-box',
+                borderRadius: '50%'
+              }}
+            />
+          </Box>
+        </Box>
+      </Box>
       <Section title='About Me'>
         <Box>
-          <Box
-            component='img'
-            src={avatarImg}
-            alt='avatar of Matt Gordon'
-            sx={{
-              height: 150,
-              width: 150,
-              float: 'left',
-              marginRight: 2,
-              marginBottom: 1,
-              padding: 0.5,
-              border: '2px solid transparent',
-              background: `linear-gradient(135deg, #00bebe, #008c8c) border-box`,
-              borderRadius: '50%'
-            }}
-          />
           <Typography mb={2}>
             I&apos;ve spent the past 20 years building for the web as a
             front-end engineer, working across industries including radio,
@@ -65,53 +157,61 @@ const Main = () => {
           </Typography>
         </Box>
       </Section>
-      <Section title='Web Projects'>
-        <Grid container spacing={3}>
-          <Grid size={{ xs: 12 }}>
-            <ProjectCard
-              title='MiPT'
-              image={MiPTImage}
-              imageAlt='mipt preview'
-              description='Full-stack fitness and nutrition platform for trainers and clients, featuring secure role-based access, progress tracking, nutrition tools, and AI-powered insights.'
-              codeLink='https://github.com/mgordon82/chapter-two-api'
-              viewSiteLink='https://chapter-two-ui.netlify.app/'
-              languages={[
-                'React',
-                'TypeScript',
-                'Redux Toolkit',
-                'Redux Observable',
-                'MUI',
-                'Node.js',
-                'Express',
-                'MongoDB',
-                'AWS Cognito',
-                'OpenAI'
-              ]}
-            />
+
+      <Box
+        id='projects'
+        sx={{
+          scrollMarginTop: 24
+        }}
+      >
+        <Section title='Web Projects'>
+          <Grid container spacing={3}>
+            <Grid size={{ xs: 12 }}>
+              <ProjectCard
+                title='MiPT'
+                image={MiPTImage}
+                imageAlt='MiPT fitness and nutrition application dashboard'
+                description='Full-stack fitness and nutrition platform for trainers and clients, featuring secure role-based access, progress tracking, nutrition tools, and AI-powered insights.'
+                codeLink='https://github.com/mgordon82/chapter-two-api'
+                viewSiteLink='https://chapter-two-ui.netlify.app/'
+                languages={[
+                  'React',
+                  'TypeScript',
+                  'Redux Toolkit',
+                  'Redux Observable',
+                  'MUI',
+                  'Node.js',
+                  'Express',
+                  'MongoDB',
+                  'AWS Cognito',
+                  'OpenAI'
+                ]}
+              />
+            </Grid>
+            <Grid size={{ xs: 12, sm: 6 }}>
+              <ProjectCard
+                title='Portfolio Site'
+                image={portfolioImg}
+                imageAlt='portfolio site preview'
+                description='Clean, responsive personal portfolio built with dark mode and custom accent color.'
+                codeLink='https://github.com/mgordon82/professional-portfolio'
+                languages={['React', 'HTML', 'CSS']}
+              />
+            </Grid>
+            <Grid size={{ xs: 12, sm: 6 }}>
+              <ProjectCard
+                title='Doggo-e-Doggo React App'
+                image={doggoEDoggoImg}
+                imageAlt='doggo-e-doggo react app preview'
+                description='A react app that connects to a database of dogs, does basic auth and looks up available dogs for adoption. This was built for a coding challenge.'
+                codeLink='https://github.com/mgordon82/doggo-e-doggo'
+                viewSiteLink='https://doggo-e-doggo.netlify.app'
+                languages={['React', 'HTML', 'CSS']}
+              />
+            </Grid>
           </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
-            <ProjectCard
-              title='Portfolio Site'
-              image={portfolioImg}
-              imageAlt='portfolio site preview'
-              description='Clean, responsive personal portfolio built with dark mode and custom accent color.'
-              codeLink='https://github.com/mgordon82/professional-portfolio'
-              languages={['React', 'HTML', 'CSS']}
-            />
-          </Grid>
-          <Grid size={{ xs: 12, sm: 6 }}>
-            <ProjectCard
-              title='Doggo-e-Doggo React App'
-              image={doggoEDoggoImg}
-              imageAlt='doggo-e-doggo react app preview'
-              description='A react app that connects to a database of dogs, does basic auth and looks up available dogs for adoption. This was built for a coding challenge.'
-              codeLink='https://github.com/mgordon82/doggo-e-doggo'
-              viewSiteLink='https://doggo-e-doggo.netlify.app'
-              languages={['React', 'HTML', 'CSS']}
-            />
-          </Grid>
-        </Grid>
-      </Section>
+        </Section>
+      </Box>
       <Section title='Contact Me'>
         <List
           component='nav'
