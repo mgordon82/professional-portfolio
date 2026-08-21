@@ -1,46 +1,74 @@
 # Matt Gordon's Professional Portfolio
 
-## What is this project?
+Personal portfolio for **Matt Gordon**, a Senior Frontend Software Engineer focused on building scalable, accessible, and maintainable web applications.
 
-This project represents my portfolio of work that I have done. Primarily, the work listed here could contain projects from my recent bootcamp course from the University of Minnesota as well as projects that I have done outside of the course.
+The portfolio highlights professional experience, technical skills, and selected projects across frontend and full-stack development.
 
-## How to access
+## Live Site
 
-The project should be available on [GitHub Pages](https://mgordon82.github.io/professional-portfolio/).
+[mattrgordon.com](https://www.mattrgordon.com)
 
-## User Story
+## Featured Work
 
+### MiPT
+
+A full-stack fitness and nutrition platform for trainers and clients featuring secure role-based access, progress tracking, nutrition tools, and AI-powered insights.
+
+**Technologies include:**
+
+- React
+- TypeScript
+- Redux Toolkit
+- Redux Observable
+- Material UI
+- Node.js
+- Express
+- MongoDB
+- AWS Cognito
+- OpenAI
+
+## Portfolio Technology
+
+This portfolio is currently built with:
+
+- React
+- Material UI
+- React Router
+- JavaScript
+- HTML
+- CSS
+
+The site is designed to be responsive, accessible, and usable across desktop and mobile devices.
+
+## Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mgordon82/professional-portfolio.git
 ```
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
+Install dependencies:
+
+```bash
+npm install
 ```
 
-## Acceptance Criteria
+Start the development server:
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
-```
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+```bash
+npm start
 ```
 
-## Links to View Code and Site
+## Links
 
-- [Github Repo](https://github.com/mgordon82/professional-portfolio)
-- [Github Pages](https://mgordon82.github.io/professional-portfolio/)
+- [Live Portfolio](https://www.mattrgordon.com)
+- [GitHub Profile](https://github.com/mgordon82)
+- [LinkedIn](https://www.linkedin.com/in/mgordon82)
+- [Portfolio Repository](https://github.com/mgordon82/professional-portfolio)
 
-## Credits
+## About
 
-I will give credit for the reset.css file to [meyerweb.com](https://meyerweb.com/eric/tools/css/reset/)
+I have spent more than 20 years building for the web, with experience across industries including radio, healthcare, FinTech, and SaaS.
+
+My primary focus is frontend engineering, including React application architecture, accessible user interfaces, design systems, state management, and maintainable component development. I also work across the stack with Node.js, APIs, databases, authentication, and AI-powered product features.

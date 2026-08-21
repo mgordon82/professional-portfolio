@@ -20,7 +20,7 @@ const Header = () => {
           />
           <Stack>
             <Typography
-              component='h1'
+              component='div'
               sx={{
                 fontSize: '1.8em',
                 lineHeight: '1em'

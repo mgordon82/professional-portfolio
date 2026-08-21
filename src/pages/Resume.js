@@ -43,7 +43,7 @@ const Resume = () => {
     >
       <Box maxWidth='lg' sx={{ mx: 'auto', px: 2 }}>
         <Box sx={{ mb: 4 }}>
-          <Typography variant='h3' sx={{ fontWeight: 700 }}>
+          <Typography component='h1' variant='h3' sx={{ fontWeight: 700 }}>
             {resumeData.name}
             {resumeData.pronouns && (
               <Typography
