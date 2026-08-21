@@ -34,7 +34,7 @@ const Header = () => {
                 fontStyle: 'italic'
               }}
             >
-              Senior Front-End Developer/Engineer
+              Senior Front-End / Full Stack Engineer
             </Typography>
           </Stack>
         </Stack>
