@@ -41,6 +41,7 @@ const ProjectCard = ({
         alt={imageAlt}
         sx={{
           height: 220,
+          objectFit: 'cover',
           objectPosition: 'top',
           transition: 'transform .3s ease, filter .3s ease',
           display: 'block',
