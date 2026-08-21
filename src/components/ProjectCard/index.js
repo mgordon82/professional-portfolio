@@ -98,16 +98,18 @@ const ProjectCard = ({
           </Typography>
 
           <Stack direction='row' spacing={1.5} sx={{ mt: 'auto' }}>
-            <Button
-              variant='contained'
-              size='small'
-              startIcon={<OpenInNewIcon />}
-              href={viewSiteLink}
-              target='_blank'
-              rel='noopener'
-            >
-              View site
-            </Button>
+            {viewSiteLink && (
+              <Button
+                variant='contained'
+                size='small'
+                startIcon={<OpenInNewIcon />}
+                href={viewSiteLink}
+                target='_blank'
+                rel='noopener'
+              >
+                View site
+              </Button>
+            )}
             <Button
               variant='outlined'
               size='small'
