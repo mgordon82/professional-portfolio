@@ -1,7 +1,7 @@
 export const resumeData = {
   name: 'Matt Gordon',
   pronouns: 'he/him',
-  title: 'Senior Front-End / Full Stack Engineer',
+  title: 'Senior Frontend Software Engineer',
 
   profile: [
     'Agile-minded engineer focused on delivering web applications with clean design, efficient code, and accessibility at the forefront.',
@@ -215,7 +215,7 @@ export const resumeData = {
 
   projects: [
     {
-      name: 'Chapter Two',
+      name: 'MiPT',
       description:
         'Fitness application with a secure web portal for Trainers and Clients to use for fitness tracking, nutrition advice, and training tools',
       link: 'https://chapter-two-ui.netlify.app/',
@@ -236,7 +236,7 @@ export const resumeData = {
       name: 'Professional Portfolio',
       description:
         'Dark-mode, responsive portfolio site built with React and MUI, featuring interactive project cards and a custom MG logo.',
-      link: 'https://mattrgordon.com',
+
       code: 'https://github.com/mgordon82/professional-portfolio',
       tech: ['React', 'MUI', 'Netlify']
     },

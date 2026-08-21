@@ -27,7 +27,6 @@ const ProjectCard = ({
   return (
     <Card
       sx={{
-        maxWidth: 600,
         height: '100%',
         flexDirection: 'column',
         borderRadius: 3,
@@ -42,7 +41,7 @@ const ProjectCard = ({
         alt={imageAlt}
         sx={{
           height: 220,
-          objectFit: 'cover',
+          objectPosition: 'top',
           transition: 'transform .3s ease, filter .3s ease',
           display: 'block',
           width: '100%'

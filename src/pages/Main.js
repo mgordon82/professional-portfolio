@@ -14,7 +14,7 @@ import ProjectCard from '../components/ProjectCard';
 import avatarImg from '../assets/images/avatar.png';
 import portfolioImg from '../assets/images/portfolio-site.png';
 import doggoEDoggoImg from '../assets/images/doggo-e-doggo-site.png';
-import chapterTwoImg from '../assets/images/chapter-two.png';
+import MiPTImage from '../assets/images/MiPT.png';
 
 const Main = () => {
   return (
@@ -67,28 +67,31 @@ const Main = () => {
       </Section>
       <Section title='Web Projects'>
         <Grid container spacing={3}>
-          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+          <Grid size={{ xs: 12 }}>
             <ProjectCard
-              title='Chapter Two'
-              image={chapterTwoImg}
-              imageAlt='chapter two preview'
+              title='MiPT'
+              image={MiPTImage}
+              imageAlt='mipt preview'
               description='Fitness application with a secure web portal for Trainers and Clients to use for fitness tracking, nutrition advice, and training tools'
               codeLink='https://github.com/mgordon82/chapter-two-api'
               viewSiteLink='https://chapter-two-ui.netlify.app/'
               languages={[
                 'React',
-
                 'Netlify',
                 'Node',
                 'MongoDB',
-
                 'Render',
-
-                'Cognito'
+                'Cognito',
+                'Typescript',
+                'Redux Toolkit',
+                'redux-observable',
+                'Express',
+                'MUI',
+                'OpenAI Integration'
               ]}
             />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+          <Grid size={{ xs: 12, sm: 6 }}>
             <ProjectCard
               title='Portfolio Site'
               image={portfolioImg}
@@ -98,7 +101,7 @@ const Main = () => {
               languages={['React', 'HTML', 'CSS']}
             />
           </Grid>
-          <Grid size={{ xs: 12, sm: 6, md: 4 }}>
+          <Grid size={{ xs: 12, sm: 6 }}>
             <ProjectCard
               title='Doggo-e-Doggo React App'
               image={doggoEDoggoImg}
