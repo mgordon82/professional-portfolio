@@ -173,7 +173,7 @@ const Main = () => {
                 imageAlt='MiPT fitness and nutrition application dashboard'
                 description='Full-stack fitness and nutrition platform for trainers and clients, featuring secure role-based access, progress tracking, nutrition tools, and AI-powered insights.'
                 codeLink='https://github.com/mgordon82/chapter-two-api'
-                viewSiteLink='https://chapter-two-ui.netlify.app/'
+                viewSiteLink='https://mipt-ui.netlify.app/'
                 languages={[
                   'React',
                   'TypeScript',

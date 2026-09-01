@@ -218,7 +218,7 @@ export const resumeData = {
       name: 'MiPT',
       description:
         'Full-stack fitness and nutrition platform for trainers and clients, featuring secure role-based access, progress tracking, nutrition tools, and AI-powered insights.',
-      link: 'https://chapter-two-ui.netlify.app/',
+      link: 'https://mipt-ui.netlify.app/',
       code: 'https://github.com/mgordon82/chapter-two-api',
       tech: [
         'React',
