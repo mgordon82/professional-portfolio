@@ -6,7 +6,7 @@ The portfolio highlights professional experience, technical skills, and selected
 
 ## Live Site
 
-[mattrgordon.com](https://www.mattrgordon.com)
+[mattrgordon.com](https://mattrgordon.com)
 
 ## Featured Work
 
@@ -66,7 +66,7 @@ npm run build
 
 ## Links
 
-- [Live Portfolio](https://www.mattrgordon.com)
+- [Live Portfolio](https://mattrgordon.com)
 - [GitHub Profile](https://github.com/mgordon82)
 - [Portfolio Repository](https://github.com/mgordon82/professional-portfolio)
 
