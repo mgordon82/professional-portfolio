@@ -9,7 +9,7 @@ import {
 } from '@mui/material';
 import Image from 'next/image';
 import ContactLink from '../components/ContactLink';
-import ResumeLinkButton from '../components/ResumeLinkButton';
+import LinkButton from '../components/LinkButton';
 import Section from '../components/Section';
 import ProjectCard from '../components/ProjectCard';
 import { projects } from '../data/projects';
@@ -104,7 +104,7 @@ const Home = () => {
                 View My Work
               </Button>
 
-              <ResumeLinkButton />
+              <LinkButton href='/resume'>View Resume</LinkButton>
             </Stack>
           </Stack>
 
