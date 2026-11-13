@@ -1,1 +1,1 @@
-export const SITE_URL = 'https://www.mattrgordon.com';
+export const SITE_URL = 'https://mattrgordon.com';
